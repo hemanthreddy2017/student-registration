@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>student registration</title>
+</head>
+<body>
+	<form action="student" method="post">
+		
+			<h1 align="center">
+				<u>STUDENT REGISTRATION FORM</u>
+			</h1>
+			<table align="center">
+				<tr>
+					<td>Student No</td>
+					<td><input type="text" name="sno" /></td>
+				</tr>
+				<tr>
+					<td>Student Name</td>
+					<td><input type="text" name="sname" /></td>
+				</tr>
+				<tr><td>Course</td>
+					<td><select name="course">
+							<option value="JAVA">JAVA</option>
+							<option value=".NET">.NET</option>
+							<option value="PHP">PHP</option>
+							<option value="SalesForce">SalesForce</option>
+					</select></td>
+				</tr>
+				<tr>
+					<td>Fees</td>
+					<td><input type="text" name="fees" /></td>
+				</tr>
+				<tr>
+					<td>Batch Timings</td>
+					<td><input type="checkbox" name="check" value="5AM - 6AM" />5AM
+						- 6AM <input type="checkbox" name="check" value="6AM - 7AM" />6AM
+						- 7AM</td>
+				</tr>
+				<tr><td></td>
+				<td><input type="checkbox" name="check" value="7AM - 8AM" />7AM
+					- 8AM <input type="checkbox" name="check" value="8AM - 9AM" />8AM -
+					9AM</td></tr>
+				<tr>
+					<td><input type="submit" value="register" /></td>
+					<td><input type="reset" value="reset" /></td>
+				</tr>
+
+			</table>
+		</center>
+	</form>
+</body>
+</html>
